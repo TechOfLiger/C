@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    
+    char name[] = "Your Name";        
+    int age = 25;                     
+    char address[] = "Your Address";  
+
+    // Print the information to the console
+    printf("Name: %s\n", name);
+    printf("Age: %d\n", age);
+    printf("Address: %s\n", address);
+
+    return 0; 
+}
